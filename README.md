@@ -1,7 +1,6 @@
 # Resturant orders - CRUD api 🍽 
 ***
-##This is a basic CRUD api that manage orders in resturant
-
+This is a basic CRUD api that manage orders in resturant
 ---
 
 * List of all the restaurant history
