@@ -41,7 +41,7 @@ app.delete('/order/:order_id', (req, res) => {
 })
 app.delete('/orders', (req, res) => {
   ordersController.removeAllOrders();
-  res.status(200);
+  res.status(200).json('removed all orders');
 })
 
 app.listen(port, () => console.log(`server is running on port ${port}`));
